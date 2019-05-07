@@ -1,0 +1,9 @@
+alias ..='cd ..'
+alias cprootpwd='echo initial0 | pbcopy' 
+alias dos2unix='perl -pe '"'"'s/\r\n|\n|\r/\n/g'"'"
+alias ll='ls -lhFG'
+alias lla='ls -lhaFG'
+alias grep='grep --colour=auto'
+alias pdate='_var=$(date "+%Y-%m-%d %H:%M:%S"); echo ${_var:0:26}; unset _var'
+alias scratch='__tmp=$(mktemp $TMPDIR/XXXXXXXXXXXX); vi $__tmp; rm $__tmp; unset __tmp'
+alias sf='screenfetch'
